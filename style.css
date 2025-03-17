@@ -1,0 +1,46 @@
+body{
+    background-color: grey;
+    text-align: center;
+}
+.container{
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    font-size: 1.7cm;
+    color:black;
+    background-color: antiquewhite;
+    
+}
+
+#reset-btn{
+    color: aquamarine;
+    background-color: black;
+    border-radius: 0.8rem;
+}
+#new{
+    color: aquamarine;
+    background-color: black;
+    border-radius: 0.8rem;
+}
+#msg{
+    color: burlywood;
+    font-size: 1.5cm;
+}
+.hide{
+    display: none;
+}
